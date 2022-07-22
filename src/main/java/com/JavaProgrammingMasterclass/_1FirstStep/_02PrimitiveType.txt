@@ -1,0 +1,13 @@
+Wrapper Class
+    Java use the concept of wrapper class for all 8 primitive types.
+    In case of int, we can use Integer.
+        by doing that it gives us a way to perform operations on an int datatype.
+Overflow and Underflow
+    if you try to put value larger than MAX value, you will get Overflow,
+    if you try to put value smaller than MIN value, you will get Underflow
+Size of primitive types and width
+    byte occupies 8 bits. Byte has width of 8.
+    short occupies 16 bits and has width of 16.
+    int occupies 32 bits and has width of 32.
+
+    each primitive type occupies a different amount of memory
