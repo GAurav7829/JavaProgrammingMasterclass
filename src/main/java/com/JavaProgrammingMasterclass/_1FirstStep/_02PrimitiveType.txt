@@ -11,3 +11,33 @@ Size of primitive types and width
     int occupies 32 bits and has width of 32.
 
     each primitive type occupies a different amount of memory
+Casting in Java
+    Casting means to treat or convert a number from one type to another.
+    eg: byte byteValue = (byte)(byteMinValue/2);
+Floating Point Numbers
+    have fractional parts that express with a decimal point.
+    eg: 3.14159
+    also known as real numbers.
+    We use floating point numbers when we need more precision in calculations.
+
+    Single and Double Precision.
+        Precision refers to the format and amount of space occupied by the type.
+        Single Precision occupies 32 bits and width of 32.
+        Double Precision occupies 64 bits and width of 64.
+Char
+    A char occupies 2 bytes of memory OR 16 bits ad=nd has width of 16.
+    It allows you to store unicode characters, that's why it not a single byte datatype.
+
+    Unicode
+        international encoding standard for use with different languages and scripts,
+        each letter, digit or symbol is assigned a unique numeric value that applies across different platforms and programs.
+
+        In english, we have A to Z (26 characters), but other languages have more characters.
+        Unicode allows us to represent other languages also. The way it works by using the combination of 2 bytes that
+            a char takes up in memory it represents and one of 65535 different types of characters.
+Boolean
+    A boolean value have 2 choices
+        TRUE    or  FALSE
+        YES     or  NO
+        1       or  0
+    In Java, boolean is a primitive datatype, and can set only 2 values, True or False.

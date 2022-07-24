@@ -37,5 +37,33 @@ public class _02PrimitiveType {
 //        long bigLongLiteralValue = 2_147_483_647_234;   //cte: integer number too large
         long bigLongLiteralValue = 2_147_483_647_234L;  //valid, as we put L in the end, that denotes it is long value
         System.out.println("bigLongLiteralValue: " + bigLongLiteralValue);
+
+
+        //Type casting
+        int myTotal = intMinValue / 2;
+//        byte byteValue = byteMinValue/2;    //cte: require byte, found int
+        byte byteValue = (byte) (byteMinValue / 2);    //type casting
+
+        //FLOAT
+        float floatMinValue = Float.MIN_VALUE;
+        float floatMaxValue = Float.MAX_VALUE;
+        System.out.println("floatMinValue: " + floatMinValue);
+        System.out.println("floatMaxValue: " + floatMaxValue);
+
+        //DOUBLE
+        double doubleMinValue = Double.MIN_VALUE;
+        double doubleMaxValue = Double.MAX_VALUE;
+        System.out.println("doubleMinValue: " + doubleMinValue);
+        System.out.println("doubleMaxValue: " + doubleMaxValue);
+
+        //CHAR
+        char charValue = 'D';
+        char unicode = '\u0044';
+        System.out.println(unicode);
+        char copyRight = '\u00A9';
+        System.out.println(copyRight);
+
+        //BOOLEAN
+        boolean bool = true;
     }
 }
