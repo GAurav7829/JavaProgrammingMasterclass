@@ -1,0 +1,8 @@
+String
+    The String is a datatype in Java, which is not a primitive type.
+    It's a class.
+
+    A String is a sequence of characters.
+
+    String is immutable, that means you can't change string after it's created.
+    When we change a string, it will create new String.
