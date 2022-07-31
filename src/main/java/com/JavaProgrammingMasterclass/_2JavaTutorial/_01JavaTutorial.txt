@@ -3,3 +3,12 @@ List of keywords
 
 DiffMerge Tool
     help you to visually compare and merge files on any OS.
+
+Method Overloading
+    allows us to have more than one method with same method name, with different parameters.
+    It has ability to create multiple methods with different implementations.
+    Calls to an overloaded method will run a specific implementation of that method.
+
+    Improves code readability  and re-usability
+    Achieve consistency in naming
+    Overloaded method gives programmer the flexibility to call a similar method with different types of data

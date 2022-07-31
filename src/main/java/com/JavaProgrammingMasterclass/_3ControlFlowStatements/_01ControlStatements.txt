@@ -1,0 +1,5 @@
+while loop checks condition then execute block.
+do while loop execute block first, then check condition. It will execute block at-least one 1 time.
+
+continue keyword bypass the control flow and move to next iteration.
+break keyword break the loop.
