@@ -1,4 +1,4 @@
-package com.JavaProgrammingMasterclass.classesInheritance.codingChallenge;
+package com.JavaProgrammingMasterclass._4classesInheritance.codingChallenge;
 
 public class SimpleCalculator {
     private double firstNumber, secondNumber;

@@ -1,0 +1,54 @@
+Inheritance
+    class is like a blueprint, using this we can build as many classes based on this blueprint.
+    each class instantiate using new keyword (is an Object, also known as instance).
+
+this and super
+    -   super
+        is used to call parent class members
+        commonly used with method overriding
+        calling the method with same name in parent class
+        the only way to call a parent constructor by using super()
+        It must be the first statement in each constructor
+        Even Abstract class is having constructor
+    -   this
+        is used to call current class members
+        commonly used with constructors and setters and optionally with getters
+        call a constructor from another overloaded constructor in same class
+        It is used in constructor chaining (one constructor call another) and help in reducing duplicate code
+    we can use both in class except the static areas(static block and static methods)
+    A constructor can have a call to super() or this(), but can't have both
+
+method overloading and overriding
+    method overloading
+        providing 2 or more separate methods in a class with same name but different parameters
+        return type may or may not be different
+        allow you to reuse the same method name
+        reduce duplicate code and we don't have to remember multiple methods name
+        overloading has nothing to do with polymorphism but Java developers often refer to overloading as compile time polymorphism
+            compiler decided which method is going to be called based on method name, return type and argument list.
+            we can override static and instance methods
+        overloading happens in single class, but method can also be treated as overloaded in the subclass of that class
+            because subclass inherits 1 version from the parent class
+                then subclass can have another overloaded version of the method
+        RULES:
+            must have same name
+            different parameters
+            may or may not have
+                different return type
+                different access modifiers
+                throw different checked and unchecked exceptions
+
+    Overriding
+        defining the method in child class which is already in parent class with same name and parameters
+        by extending the parent class, child class gets all the methods defined in parent class (called derived methods)
+        method overriding, also known as Runtime Polymorphism/Dynamic Method Dispatch
+            the method that is going to be called is decided at runtime by JVM
+        when override a method, it is recommended to use @Override annotation, this annotation read by the compiler and will show error if we don't follow the override rules
+        can't override the static methods, only instance methods
+        RULES:
+            must have same name and arguments
+            can have lower access modifiers, eg. if parent method have protected, then it is not allowed to make private in child class, but public is allowed
+
+            Only inherited methods can be overridden
+            Constructors and private methods can't be overridden
+            Subclass can use super.methodName() to call parent version of overridden method

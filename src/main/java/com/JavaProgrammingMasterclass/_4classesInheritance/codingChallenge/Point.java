@@ -1,4 +1,4 @@
-package com.JavaProgrammingMasterclass.classesInheritance.codingChallenge;
+package com.JavaProgrammingMasterclass._4classesInheritance.codingChallenge;
 
 public class Point {
     private int x, y;

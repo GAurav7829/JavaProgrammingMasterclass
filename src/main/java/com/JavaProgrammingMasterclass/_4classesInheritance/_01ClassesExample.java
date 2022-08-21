@@ -1,6 +1,6 @@
-package com.JavaProgrammingMasterclass.classesInheritance;
+package com.JavaProgrammingMasterclass._4classesInheritance;
 
-import com.JavaProgrammingMasterclass.classesInheritance.cars.Car;
+import com.JavaProgrammingMasterclass._4classesInheritance.cars.Car;
 
 public class _01ClassesExample {
     public static void main(String[] args) {

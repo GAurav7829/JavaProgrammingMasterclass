@@ -1,4 +1,4 @@
-package com.JavaProgrammingMasterclass.classesInheritance.account;
+package com.JavaProgrammingMasterclass._4classesInheritance.account;
 
 public class Account {
     private String number;

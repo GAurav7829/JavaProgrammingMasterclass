@@ -1,4 +1,4 @@
-package com.JavaProgrammingMasterclass.classesInheritance.cars;
+package com.JavaProgrammingMasterclass._4classesInheritance.cars;
 
 public class Car {
     private int doors;
