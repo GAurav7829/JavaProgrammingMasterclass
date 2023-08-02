@@ -1,0 +1,98 @@
+Keywords
+	reserved words with predefined meaning
+Variables
+	way to store information in computer
+Expression
+	construct, that evaluates to a single value
+	
+PrimitiveDataTypes
+	WholeNumber		bytes
+		byte			8
+		short			16	
+		int				32
+		long			64
+	RealNumber
+		float			32
+		double			64
+	SingleCharacter
+		char			2
+	BooleanValue
+		boolean			1 bit
+
+Class
+	building block of OOP
+	allows to build custom dataTypes
+
+	WrapperClasses
+		primitiveDataType have their respective classes called WrapperClass
+			byte	-	Byte
+			short	-	Short
+			char	-	Character
+			int		-	Integer
+			long	-	Long
+			float	-	Float
+			double	-	Double
+			boolean	-	Boolean
+			
+	
+	Overflow and Underflow
+		Overflow
+			max value wraps around the min value, continue to process without error
+			eg. Integer.MAX_VALUE + 1
+		Underflow
+			min value wraps around the max value, continue to process without error
+			eg. Integer.MIN_VALUE -1
+			
+		Developer needs to choose appropriate dataType to avoid Overflow and underflow
+		
+	Numeric literals
+		123456789	-	123_456_789
+	
+	put 'L' or 'l' while defining the long dataType
+		'D' or 'd' while defining the double dataType
+		'F' or 'f' while defining the float dataType
+		
+	TypeCasting
+		byte num = (byte)(127/2);
+	
+	choose double?
+		faster to process
+		more precise
+	
+	char and String
+		char	-	holds 1 character
+		String	-	holds multiple characters
+		
+		char	-	enclosed by ''
+		String	-	enclosed by ""
+		
+		
+	String
+		immutable, can be used as primitive dataType
+		special category in java, not a primitive type, it's a class
+	StringBuilder
+		mutable
+		
+			Both are classes
+	
+	char
+		'a' + 'b' = 195
+		char stores 2 byte in memory
+		when use '+'operator with char, these numbers will add in memory
+			they got not concatenate
+			
+	whiteSpaces
+		extra spaces (vertically or horizontally) placed around java code
+		
+Class
+	custom data type
+	special code block that contains methods
+Object
+	instance of class
+	
+
+System.console()
+	String name = System.console().readLine("Enter Name: ");
+	
+	used to take input from user
+	in IDE, it is disabled, can be used in cmd.
