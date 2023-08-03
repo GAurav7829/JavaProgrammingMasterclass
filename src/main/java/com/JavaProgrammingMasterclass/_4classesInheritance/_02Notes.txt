@@ -34,3 +34,44 @@ getters and setters
 this
     special keyword
     reference to the object
+
+constructor
+    used to create object, that's instance of object
+    never return type, not even void
+
+static
+    every instance of class shares same static variable
+    can be used for
+        storing counters
+        generating unique ids
+        storing constant values that doesn't change
+        creating/controlling access to shared resource
+    we can't use this keyword
+
+instance variables
+    object stores its own copy of variables
+        have different values
+
+POJO
+    plain old java object
+
+Annotation
+    type of metadata
+    describe additional information about code
+    more structured, more meaning than comment
+    can be used by the compiler, or other type of pre-processing functions, to get info about code
+    doesn't affect how the code runs, with or without annotations
+
+Record
+    introduced in JDK 14, officially in JDK 16
+    purpose to replace boilerplate code of pojo, but to be more restricted
+    java calls them "plain data carriers"
+    is a special class that contains data, that not to be altered
+    to achieve immutability for data members
+    contains fundamental methods like constructors and accessors
+        generates toString, getter methods
+    developer don't have to write or generate code
+    why immutable?
+        more use case for immutable data transfer objects
+        keep them encapsulated
+        protect data from unwanted mutations
